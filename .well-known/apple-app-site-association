@@ -1,15 +1,13 @@
 {
-  "applinks": {
-      "details": [
-           {
-             "appIDs": ["KALP3YFTVG.com.timberlanelabs.wynk.app"],
-             "components": [
-               {
-                  "/": "/wynk/*",
-                  "?": { "wynkId": "*" }
-               }
-             ]
-           }
-       ]
-   }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "KALP3YFTVG.com.timberlanelabs.wynk.app",
+                "paths": [
+                    "/wynk/*"
+                ]
+            }
+        ]
+    }
 }
