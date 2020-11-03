@@ -5,7 +5,7 @@
             {
                 "appID": "KALP3YFTVG.com.timberlanelabs.wynk.app",
                 "paths": [
-                    "/wynk/*"
+                    "/wynk/share/*"
                 ]
             }
         ]
