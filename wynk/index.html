@@ -1,1 +1,75 @@
-hello world 👋
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Timberlane Labs">
+
+        <meta og:image="resources/logo.png">
+        <meta og:site_name="Wynk">
+        <meta og:title="Wynk">
+        <meta og:url="https://timberlanelabs.com/wynk">
+
+        <meta twitter:card="summary">
+        <meta twitter:site="@WynkApp">
+        <meta twitter:creator="@WynkApp">
+        <meta twitter:title="Wynk">
+
+        <title>Wynk</title>
+        <link rel="shortcut icon" href="resources/logo.ico">
+
+        <style>
+            @font-face {
+                font-family: "Nanum Pen";
+                src: url("resources/NanumPenScript-Regular.ttf");
+            }
+
+            html, body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            a { 
+                color: black;
+                text-decoration: none !important; 
+            }
+
+            .vstack { display: flex; flex-direction: column; align-items: center; text-align: center; }
+            .hstack { display: flex; flex-direction: row; align-items: center; text-align: center; }
+
+            .wynk { font-family: "Nanum Pen"; }
+
+            .footer { 
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+             }
+             .footer * {
+                 margin: 5px 0px;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="vstack">
+            <br>
+
+            <img src="resources/logo_plain.png">
+
+            <h1 class="wynk">Wynk</h1>
+            <p>Create and share widgets with ease!</p>
+
+            <br>
+
+            <img src="resources/appstore.png">
+        </div>
+
+        <div class="footer">
+            <div class="vstack">
+                <a href="https://timberlanelabs.com">
+                    <img src="resources/timberlane_labs.png">
+                    <h6>Made with ❤️ by Timberlane Labs</h6>    
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
